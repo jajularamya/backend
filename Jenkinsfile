@@ -41,7 +41,7 @@ pipeline {
                  
                     sh """
                     docker build -t backend:v1.0.0 .
-                    
+
                     """
                 }
                  
@@ -64,4 +64,4 @@ pipeline {
             echo 'I will run when pipeline is success'
         }
     }
-}
+
