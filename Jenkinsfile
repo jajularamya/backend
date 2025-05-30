@@ -38,7 +38,7 @@ pipeline {
         stage('Docker Build') {
             steps {
                script{
-                withAWS(region: 'us-east-1', credentials: 'aws-creds') {
+                 
                     sh """
                     
                     docker build -t backend:v1.0.0 .
