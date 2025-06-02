@@ -46,7 +46,7 @@ pipeline {
                       --password-stdin ${ACC_ID}.dkr.ecr.us-east-1.amazonaws.com
 
                     """
-                }
+                 } 
                  
                    
                 }
